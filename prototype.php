@@ -7,7 +7,7 @@ $article = new Article('Test article text', 'Test author', 'Sample title');
 
 $article->displayArticle();
 
-echo '---- Displaying cloned article, wait a second.. ----' . "\n";
+echo '---- Displaying cloned article, wait a second.. ----' . \PHP_EOL;
 
 sleep(1);
 

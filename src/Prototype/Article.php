@@ -58,9 +58,9 @@ class Article
      */
     public function displayArticle()
     {
-        echo 'Title: ' . $this->title . "\n";
-        echo 'Author: ' . $this->author . "\n";
-        echo 'Text: ' . $this->text. "\n";
-        echo 'Created at: ' . $this->createdAt->format('Y-m-d H:i:s'). "\n";
+        echo 'Title: ' . $this->title . \PHP_EOL;
+        echo 'Author: ' . $this->author . \PHP_EOL;
+        echo 'Text: ' . $this->text. \PHP_EOL;
+        echo 'Created at: ' . $this->createdAt->format('Y-m-d H:i:s'). \PHP_EOL;
     }
 }
