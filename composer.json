@@ -1,0 +1,17 @@
+{
+    "name": "zwolin/design-patterns",
+    "description": "Sample design patterns in PHP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Zwolin\\DesignPatterns\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ZwolinKox",
+            "email": "szymon.zwolinski2001@gmail.com"
+        }
+    ],
+    "require": {}
+}
