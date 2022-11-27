@@ -61,6 +61,10 @@ class Product
         echo 'Type: ' . $this->displayField($this->sku);
     }
 
+    /**
+     * @param mixed $value
+     * @return string
+     */
     protected function displayField($value): string
     {
         return ($value ?? 'null') . \PHP_EOL;
